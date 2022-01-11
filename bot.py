@@ -61,7 +61,7 @@ async def next(message = None):
     global current_song
     global current_vc
     global songs 
-    print(message != None)
+
     if message != None:
         await message.delete()
     # Check to make sure we are within the index
@@ -72,4 +72,4 @@ async def next(message = None):
     else:
        current_vc.disconnect() 
 
-client.run('OTI4ODI0NzY3NjY5MjM1Nzcy.YdeZeQ.lXLBJMcJSeY0t4Orl_gIjoolZCs')
+client.run('')
